@@ -8,11 +8,16 @@
 
 ### Tópicos
 
-- Apresentação
-- Casos de Uso
+- [Apresentação](apresentação)
+- Casos de uso
 - Diagrama de classes
-- ...
 
 ### Dados temporários
 
 Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
+
+## Apresentação 
+
+## Casos de uso
+
+## Diagrama de classes
