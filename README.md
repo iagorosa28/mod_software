@@ -1,4 +1,4 @@
-# Modelagem para controle de uma locadora de veículos
+# Modelagem de um sistema para uma locadora de veículos
 
 > Status do projeto: Em andamento
 
