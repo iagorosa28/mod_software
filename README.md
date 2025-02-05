@@ -9,8 +9,8 @@
 ### Tópicos
 
 - [Apresentação](#apresentação)
-- Casos de uso
-- Diagrama de classes
+- [Casos de uso](#casos-de-uso)
+- [Diagrama de classes](#diagrama-de-classes)
 
 ### Dados temporários
 
