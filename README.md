@@ -1,5 +1,4 @@
-# mod_software
-Projeto de Modelagem de Software Orientado a Objetos
+# Modelagem para controle de uma locadora de veículos
 
 > Status do projeto: Em andamento
 
