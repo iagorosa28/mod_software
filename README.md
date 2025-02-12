@@ -32,11 +32,11 @@ Fluxo
 Principal
 
 ### Tabela de Casos de Uso
-| Identificador | UC_01                                                          |
-| :-------------| :-----------------------------------------------------------------------------|
-| Função        | Dados do aluno                                                                |
-| Atores        | - O aluno cadastra-se na plataforma<br>- Espera a plataforma validar os dados |
-| Prioridade    | **Mensagem de espera**     
-| Pré-condição  |  |
-| Pós-condição  |  |
-| Fluxo         |  |
+| Identificador   | UC_01                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Verificar Cadastro                                     |
+| Atores          | Cliente, Atendente |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Cliente precisa informar o código                                                          |
+| Pós-condição    |  Verificação de cadastro                                                                   |
+| Fluxo Principal | - Cliente deve informar seu código <br> - Atendente verifica se cliente já possui cadastro <br> - Se cliente não possuir cadastro, atendente cria um cadastro |
