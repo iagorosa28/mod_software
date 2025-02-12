@@ -21,15 +21,7 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 ## Casos de uso
 ### Diagrama de Casos de Uso
 
-Identificação UC_01
-Função Retirar Dinheiro do caixa eletrônico
-Atores Cliente, Caixa eletrônico
-Prioridade Essencial
-Pré-condição Cliente precisa ter em mãos o cartão do
-banco
-Pós-condição Dinheiro sacado com sucesso
-Fluxo
-Principal
+![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/9d54e305-bb7f-4529-aa2e-add22c9c3915)
 
 ### Tabela de Casos de Uso
 | Identificador   | UC_01                                                          |
