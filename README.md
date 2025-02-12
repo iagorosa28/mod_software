@@ -39,4 +39,4 @@ Principal
 | Prioridade      | Essencial          |     
 | Pré-condição    | Cliente precisa informar o código                                                          |
 | Pós-condição    |  Verificação de cadastro                                                                   |
-| Fluxo Principal | - Cliente deve informar seu código <br> - Atendente verifica se cliente já possui cadastro <br> - Se cliente não possuir cadastro, atendente cria um cadastro |
+| Fluxo Principal | - Cliente deve informar seu código <br> - Atendente verifica se cliente já possui cadastro <br> - Se cliente não possuir cadastro, atendente cria um cadastro <br> - Se possuir cadastro, o atendente verifica se possui locações pendentes <br> - Se não possuir cadastro ou possuir locações pendentes a locação deve ser recusada |
