@@ -19,5 +19,24 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 ## Apresentação 
 
 ## Casos de uso
+### Diagrama de Casos de Uso
 
-## Diagrama de classes
+Identificação UC_01
+Função Retirar Dinheiro do caixa eletrônico
+Atores Cliente, Caixa eletrônico
+Prioridade Essencial
+Pré-condição Cliente precisa ter em mãos o cartão do
+banco
+Pós-condição Dinheiro sacado com sucesso
+Fluxo
+Principal
+
+### Tabela de Casos de Uso
+| Identificador | UC_01                                                          |
+| :-------------| :-----------------------------------------------------------------------------|
+| Função        | Dados do aluno                                                                |
+| Atores        | - O aluno cadastra-se na plataforma<br>- Espera a plataforma validar os dados |
+| Prioridade    | **Mensagem de espera**     
+| Pré-condição  |  |
+| Pós-condição  |  |
+| Fluxo         |  |
