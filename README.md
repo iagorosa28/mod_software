@@ -31,4 +31,8 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Prioridade      | Essencial          |     
 | Pré-condição    | Cliente precisa informar o código                                                          |
 | Pós-condição    |  Verificação de cadastro                                                                   |
-| Fluxo Principal | - Cliente deve informar seu código <br> - Atendente verifica se cliente já possui cadastro <br> - Se cliente não possuir cadastro, atendente cria um cadastro <br> - Se possuir cadastro, o atendente verifica se possui locações pendentes <br> - Se não possuir cadastro ou possuir locações pendentes a locação deve ser recusada |
+| Fluxo Principal | - O cliente informa seu código <br> - O atendente verifica se o cliente já possui cadastro <br> - O atendente recepciona o cliente na loja <br> - O cliente escolhe a categoria do veículo <br> - O cliente realiza o pagamento do veículo por meio de um sistema de pagamento externo <br> - O cliente conclui a locação do veículo <br> - O time do pátio libera o veículo para o cliente <br> - Após a devolução do veículo, o sistema verifica a existência de infrações junto ao Detran <br> |
+| Fluxo Secundário FS001| - Se o cliente não possuir cadastro, o atendente realiza o cadastro <br> |
+| Fluxo Secundário FS002| - Se o cliente já possuir cadastro, o atendente verifica se há locações pendentes <br> |
+| Fluxo Secundário FS003| - Se o cliente não tiver cadastro ou possuir locações pendentes, a locação deve ser recusada <br> |
+| Fluxo Secundário FS004| - Caso existam infrações, o sistema realiza a cobrança do cliente <br> |
