@@ -80,3 +80,13 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Pré-condição    | Locação do veículo finalizada com sucesso                                                          |
 | Pós-condição    | O cliente pode utilizar o veículo alugado                                                                |
 | Fluxo Principal | - A equipe do pátio libera o veículo para o cliente <br> |
+
+| Identificador   | UC_07                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Verificar multas                                     |
+| Atores          | Detran |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Devolução do veículo pelo cliente concluída                                                          |
+| Pós-condição    | Conclusão final da locação                                                                |
+| Fluxo Principal | - O sistema consulta o Detran para verificar se há multas pendentes no veículo utilizado pelo cliente (FS004) <br> |
+| Fluxo Secundário FS004 | - Caso existam multas pendentes relacionadas ao veículo do cliente, o sistema deve notificar e cobrar o cliente <br> |
