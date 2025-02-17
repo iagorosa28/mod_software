@@ -71,3 +71,12 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Pré-condição    | Pagamento do veículo concluído                                                          |
 | Pós-condição    | Veículo alugado com sucesso                                                                |
 | Fluxo Principal | - O cliente só precisa finalizar a locação para ter seu veículo alugado <br> |
+
+| Identificador   | UC_06                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Liberar veículo                                     |
+| Atores          | Cliente, time do pátio |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Locação do veículo finalizada com sucesso                                                          |
+| Pós-condição    | O cliente pode utilizar o veículo alugado                                                                |
+| Fluxo Principal | - A equipe do pátio libera o veículo para o cliente <br> |
