@@ -31,4 +31,7 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Prioridade      | Essencial          |     
 | Pré-condição    | Cliente precisa informar o código                                                          |
 | Pós-condição    |  Verificação de cadastro                                                                   |
-| Fluxo Principal | - O cliente informa seu código FS001/FS002 <br> - O atendente verifica se o cliente já possui cadastro <br> |
+| Fluxo Principal | - O cliente informa seu código <br> - O atendente verifica se o cliente já possui cadastro (FS001, FS002) <br> |
+| Fluxo Secundário FS001 | Se o cliente não possuir cadastro, o atendente realiza o procedimento <br> |
+| Fluxo Secundário FS002 | Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003) <br> |
+| Fluxo Secundário FS003 | Caso o cliente tenha locações pendentes, o atendente deve recusar a locação <br> |
