@@ -54,4 +54,11 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Pós-condição    | O cliente avança para as etapas de pagamento e documentação                                                                |
 | Fluxo Principal | - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências <br> |
 
-
+| Identificador   | UC_04                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Pagar veículo                                     |
+| Atores          | Cliente, Sistem de pagamento |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Escolha do veículo pelo cliente                                                          |
+| Pós-condição    | O cliente segue para os processos finais da locação do veículo                                                                |
+| Fluxo Principal | - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento <br> |
