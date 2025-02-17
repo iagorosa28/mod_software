@@ -30,11 +30,11 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Atores          | Cliente, Atendente |
 | Prioridade      | Essencial          |     
 | Pré-condição    | Cliente precisa informar o código                                                          |
-| Pós-condição    |  Verificação de cadastro                                                                   |
+| Pós-condição    | Aprovação ou rejeição do cliente                                                                   |
 | Fluxo Principal | - O cliente informa seu código <br> - O atendente verifica se o cliente já possui cadastro (FS001, FS002) <br> |
-| Fluxo Secundário FS001 | Se o cliente não possuir cadastro, o atendente realiza o procedimento <br> |
-| Fluxo Secundário FS002 | Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003) <br> |
-| Fluxo Secundário FS003 | Caso o cliente tenha locações pendentes, o atendente deve recusar a locação <br> |
+| Fluxo Secundário FS001 | - Se o cliente não possuir cadastro, o atendente realiza o procedimento <br> |
+| Fluxo Secundário FS002 | - Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003) <br> |
+| Fluxo Secundário FS003 | - Caso o cliente tenha locações pendentes, o atendente deve recusar a locação <br> |
 
 | Identificador   | UC_02                                                          |
 | :---------------| :-----------------------------------------------------------------------------|
@@ -42,7 +42,16 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Atores          | Cliente, Atendente |
 | Prioridade      | Essencial          |     
 | Pré-condição    | Locação do cliente liberada                                                          |
-| Pós-condição    | Recepção do cliente na loja                                                                |
+| Pós-condição    | O cliente pode selecionar o veículo de sua preferência                                                                |
 | Fluxo Principal | - Caso tanto o cadastro quanto as locações pendentes do cliente estejam em conformidade, o atendente recepciona o cliente na loja <br> |
+
+| Identificador   | UC_03                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Escolher categoria                                     |
+| Atores          | Cliente |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Recepção do cliente na loja                                                          |
+| Pós-condição    | O cliente avança para as etapas de pagamento e documentação                                                                |
+| Fluxo Principal | - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências <br> |
 
 
