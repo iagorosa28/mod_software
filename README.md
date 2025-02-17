@@ -23,7 +23,7 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 
 ![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/9d54e305-bb7f-4529-aa2e-add22c9c3915)
 
-### Tabela de Casos de Uso
+### Tabelas de Casos de Uso
 | Identificador   | UC_01                                                          |
 | :---------------| :-----------------------------------------------------------------------------|
 | Função          | Verificar Cadastro                                     |
@@ -35,3 +35,14 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Fluxo Secundário FS001 | Se o cliente não possuir cadastro, o atendente realiza o procedimento <br> |
 | Fluxo Secundário FS002 | Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003) <br> |
 | Fluxo Secundário FS003 | Caso o cliente tenha locações pendentes, o atendente deve recusar a locação <br> |
+
+| Identificador   | UC_02                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Recepcionar na loja                                     |
+| Atores          | Cliente, Atendente |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Locação do cliente liberada                                                          |
+| Pós-condição    | Recepção do cliente na loja                                                                |
+| Fluxo Principal | - Caso tanto o cadastro quanto as locações pendentes do cliente estejam em conformidade, o atendente recepciona o cliente na loja <br> |
+
+
