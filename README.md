@@ -62,3 +62,12 @@ Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 | Pré-condição    | Escolha do veículo pelo cliente                                                          |
 | Pós-condição    | O cliente segue para os processos finais da locação do veículo                                                                |
 | Fluxo Principal | - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento <br> |
+
+| Identificador   | UC_05                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Alugar veículo                                     |
+| Atores          | Cliente |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Pagamento do veículo concluído                                                          |
+| Pós-condição    | Veículo alugado com sucesso                                                                |
+| Fluxo Principal | - O cliente só precisa finalizar a locação para ter seu veículo alugado <br> |
