@@ -16,6 +16,8 @@
 
 Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
 
+Classes: Veículo, funcionário, cliente, locação, "multas", 
+
 ## Apresentação 
 
 ## Casos de uso
