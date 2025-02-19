@@ -97,14 +97,10 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 
 ```mermaid
 classDiagram
-
-  ALUNO "1" -- "1..*" PROFESSOR : ESCOLHE
-  ALUNO "1" -- "1..*" AULA : AGENDA
-  ALUNO "1" -- "1" PAGAMENTO : PAGA
-  ALUNO "1" -- "1" AVALIAÇÃO : AVALIA
-  PROFESSOR "1" -- "1..*" AULA : AGENDA
-  PROFESSOR "1" -- "1" PAGAMENTO : RECEBE
-  PROFESSOR "1" -- "1" AVALIAÇÃO : AVALIA
+  CLIENTE "1" -- "1" LOCAÇÃO : REALIZA
+  ATENDENTE "1" -- "1..*" CLIENTES : CADASTRA
+  CLIENTE "1" -- "1" VEICULO : SOLICITA CATEGORIA
+  VEICULO "1" -- "1" LOCAÇÃO : ATRIBUI MULTA  
 
   class VEICULO{
   - categoria string
