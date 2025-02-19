@@ -126,6 +126,7 @@ classDiagram
   CLIENTE : - dataDeNascimento date
   CLIENTE : - contadorDeLocaçãoMensal int
   CLIENTE : - sequenciaMensal int
+  CLIENTE : - nivelCategoria int
   }
 
   class LOCAÇÃO{
