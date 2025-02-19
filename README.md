@@ -92,3 +92,49 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Pós-condição    | Conclusão final da locação                                                                |
 | Fluxo Principal | - O sistema consulta o Detran para verificar se há multas pendentes no veículo utilizado pelo cliente (FS004) <br> |
 | Fluxo Secundário FS004 | - Caso existam multas pendentes relacionadas ao veículo do cliente, o sistema deve notificar e cobrar o cliente <br> |
+
+## Diagrama de Classes
+
+```mermaid
+classDiagram
+
+  ALUNO "1" -- "1..*" PROFESSOR : ESCOLHE
+  ALUNO "1" -- "1..*" AULA : AGENDA
+  ALUNO "1" -- "1" PAGAMENTO : PAGA
+  ALUNO "1" -- "1" AVALIAÇÃO : AVALIA
+  PROFESSOR "1" -- "1..*" AULA : AGENDA
+  PROFESSOR "1" -- "1" PAGAMENTO : RECEBE
+  PROFESSOR "1" -- "1" AVALIAÇÃO : AVALIA
+
+  class VEICULO{
+  VEICULO : - categoria string
+  VEICULO : - modelo string
+  VEICULO : - placa string
+  +
+  }
+
+  class ATENDENTE{
+  ATENDENTE : - desempenho float
+  ATENDENTE : - ocupação boolean
+  }
+
+  class CLIENTE{
+  CLIENTE : - código string
+  CLIENTE : - locaçãoPendente boolean
+  CLIENTE : - cpf string
+  CLIENTE : - valorDeAluguel float
+  CLIENTE : - dataDeNascimento date
+  CLIENTE : - contadorDeLocaçãoMensal int
+  CLIENTE : - sequenciaMensal int
+  }
+
+  class LOCAÇÃO{
+  LOCAÇÃO : multa float
+  LOCAÇÃO : valorDaLocação float
+  LOCAÇÃO : valorAdicional float
+  LOCAÇÃO : dataDeInicio date
+  LOCAÇÃO : dataDeEntrega date
+  LOCAÇÃO : reservaDeSegurança float
+  }
+
+
