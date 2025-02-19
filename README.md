@@ -98,7 +98,7 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 ```mermaid
 classDiagram
   CLIENTE "1" -- "1" LOCAÇÃO : REALIZA
-  ATENDENTE "1" -- "1..*" CLIENTES : CADASTRA
+  ATENDENTE "1" -- "1..*" CLIENTE : CADASTRA
   CLIENTE "1" -- "1" VEICULO : SOLICITA CATEGORIA
   VEICULO "1" -- "1" LOCAÇÃO : ATRIBUI MULTA  
 
