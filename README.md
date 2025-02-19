@@ -127,6 +127,7 @@ classDiagram
   - contadorDeLocaçãoMensal int
   - sequenciaMensal int
   - nivelCategoria int
+  + Cadastrar()
   }
 
   class LOCAÇÃO{
