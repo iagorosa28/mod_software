@@ -107,35 +107,35 @@ classDiagram
   PROFESSOR "1" -- "1" AVALIAÇÃO : AVALIA
 
   class VEICULO{
-  VEICULO : - categoria string
-  VEICULO : - modelo string
-  VEICULO : - placa string
+  - categoria string
+  - modelo string
+  - placa string
   +
   }
 
   class ATENDENTE{
-  ATENDENTE : - desempenho float
-  ATENDENTE : - ocupação boolean
+  - desempenho float
+  - ocupação boolean
   }
 
   class CLIENTE{
-  CLIENTE : - código string
-  CLIENTE : - locaçãoPendente boolean
-  CLIENTE : - cpf string
-  CLIENTE : - valorDeAluguel float
-  CLIENTE : - dataDeNascimento date
-  CLIENTE : - contadorDeLocaçãoMensal int
-  CLIENTE : - sequenciaMensal int
-  CLIENTE : - nivelCategoria int
+  - código string
+  - locaçãoPendente boolean
+  - cpf string
+  - valorDeAluguel float
+  - dataDeNascimento date
+  - contadorDeLocaçãoMensal int
+  - sequenciaMensal int
+  - nivelCategoria int
   }
 
   class LOCAÇÃO{
-  LOCAÇÃO : multa float
-  LOCAÇÃO : valorDaLocação float
-  LOCAÇÃO : valorAdicional float
-  LOCAÇÃO : dataDeInicio date
-  LOCAÇÃO : dataDeEntrega date
-  LOCAÇÃO : reservaDeSegurança float
+  - multa float
+  - valorDaLocação float
+  - valorAdicional float
+  - dataDeInicio date
+  - dataDeEntrega date
+  - reservaDeSegurança float
   }
 
 
