@@ -154,4 +154,12 @@ classDiagram
 classDiagram
   Cliente --> Pessoa
   Funcionario --> Pessoa
+  Funcionario "1" -- "0..*" Cliente : Cadastra
+  Cliente "1" -- "1" Locacao : Realiza
+  Cliente "1" -- "1" Veiculo : Aluga
+  Cliente "1" -- "1" Historico : Tem
+  Veiculo "1" -- "1" Locacao : Pertence
+  Historico "1" -- "1" Locacao : Pertence
+  Veiculo "1" -- "0..*" Multa : Leva
+  Historico "1" -- "0..*" Multa : Registra
 ```
