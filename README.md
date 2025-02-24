@@ -152,6 +152,6 @@ classDiagram
 
 ```mermaid
 classDiagram
-  Cliente --> Pessoa :
-  Funcionario --> Pessoa : 
+  Cliente --> Pessoa
+  Funcionario --> Pessoa
 ```
