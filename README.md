@@ -152,8 +152,8 @@ classDiagram
 
 ```mermaid
 classDiagram
-  Cliente --> Pessoa
-  Funcionario --> Pessoa
+  Pessoa <-- Cliente
+  Pessoa <-- Funcionario
   Funcionario "1" -- "0..*" Cliente : Cadastra
   Cliente "1" -- "1" Locacao : Realiza
   Cliente "1" -- "1" Veiculo : Aluga
