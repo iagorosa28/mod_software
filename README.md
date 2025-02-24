@@ -148,5 +148,10 @@ classDiagram
   + atualizarValores()
   + registrarDatas()
   }
+```
 
-
+```mermaid
+classDiagram
+  Cliente --> Pessoa :
+  Funcionario --> Pessoa : 
+```
