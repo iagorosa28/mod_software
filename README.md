@@ -47,13 +47,13 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Pós-condição    | O cliente pode selecionar o veículo de sua preferência                                                                            |
 | Fluxo Principal | - Caso tanto o cadastro quanto as locações pendentes do cliente estejam em conformidade, o atendente recepciona o cliente na loja |
 
-| Identificador   | UC_03                                                          |
-| :---------------| :-----------------------------------------------------------------------------|
-| Função          | Alugar veículo                                     |
-| Atores          | Cliente |
-| Prioridade      | Essencial          |     
-| Pré-condição    | Recepção do cliente na loja                                                          |
-| Pós-condição    | Pagar veículo                                                                |
+| Identificador   | UC_03                                                                               |
+| :---------------| :-----------------------------------------------------------------------------------|
+| Função          | Alugar veículo                                                                      |
+| Atores          | Cliente                                                                             |
+| Prioridade      | Essencial                                                                           |     
+| Pré-condição    | Recepção do cliente na loja                                                         |
+| Pós-condição    | Pagar veículo                                                                       |
 | Fluxo Principal | - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências |
 
 | Identificador   | UC_04                                                                                             |
@@ -62,26 +62,26 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Atores          | Cliente, Sistem de pagamento                                                                      |
 | Prioridade      | Essencial                                                                                         |     
 | Pré-condição    | Escolha do veículo pelo cliente                                                                   |
-| Pós-condição    | Liberação do veículo                                    |
+| Pós-condição    | Liberação do veículo                                                                              |
 | Fluxo Principal | - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento |
 
-| Identificador   | UC_05                                                          |
-| :---------------| :-----------------------------------------------------------------------------|
+| Identificador   | UC_05                                               |
+| :---------------| :---------------------------------------------------|
 | Função          | Liberar veículo                                     |
-| Atores          | Cliente, time do pátio |
-| Prioridade      | Essencial          |     
-| Pré-condição    | Locação do veículo finalizada com sucesso                                                          |
-| Pós-condição    | O cliente pode utilizar o veículo alugado                                                                |
-| Fluxo Principal | - A equipe do pátio libera o veículo para o cliente <br> |
+| Atores          | Cliente, time do pátio                              |
+| Prioridade      | Essencial                                           |     
+| Pré-condição    | Locação do veículo finalizada com sucesso           |
+| Pós-condição    | O cliente pode utilizar o veículo alugado           |
+| Fluxo Principal | - A equipe do pátio libera o veículo para o cliente |
 
-| Identificador   | UC_06                                                          |
-| :---------------| :-----------------------------------------------------------------------------|
-| Função          | Verificar multas                                     |
-| Atores          | Detran |
-| Prioridade      | Essencial          |     
-| Pré-condição    | Devolução do veículo pelo cliente concluída                                                          |
-| Pós-condição    | Conclusão final da locação                                                                |
-| Fluxo Principal | - O sistema consulta o Detran para verificar se há multas pendentes no veículo utilizado pelo cliente (FS004) <br> |
+| Identificador          | UC_06                                                          |
+| :----------------------| :-----------------------------------------------------------------------------|
+| Função                 | Verificar multas                                     |
+| Atores                 | Detran |
+| Prioridade             | Essencial          |     
+| Pré-condição           | Devolução do veículo pelo cliente concluída                                                          |
+| Pós-condição           | Conclusão final da locação                                                                |
+| Fluxo Principal        | - O sistema consulta o Detran para verificar se há multas pendentes no veículo utilizado pelo cliente (FS004) <br> |
 | Fluxo Secundário FS004 | - Caso existam multas pendentes relacionadas ao veículo do cliente, o sistema deve notificar e cobrar o cliente <br> |
 
 ## Diagrama de Classes
