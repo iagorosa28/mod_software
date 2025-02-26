@@ -187,7 +187,7 @@ classDiagram
   }
 
   class Historico{
-  - multa boolean
+  - multasAtivas boolean
   - locacaoPendente boolean
   - sequenciaLocacao int
   + consultarHistorico()
