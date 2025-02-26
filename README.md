@@ -162,4 +162,27 @@ classDiagram
   Historico "1" -- "1" Locacao : Pertence
   Veiculo "1" -- "0..*" Multa : Leva
   Historico "1" -- "0..*" Multa : Registra
+
+  class Pessoa{
+  - cpf string
+  - dataDeNascimento date
+  - nome string
+  }
+
+  class Cliente{
+  - codigo string
+  - nivelCategoria int
+  + cadastrar()
+  + verificarCadastro()
+  + atualizarNivelCategoria()
+  + verificarNivelCategoria()
+  }
+
+  class Funcionario{
+  - desempenho float
+  - ocupacao boolean
+  - tipoFuncionario string
+  + atualizarDesempenho()
+  + verificarDesempenho()
+  }
 ```
