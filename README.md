@@ -23,7 +23,7 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 ## Casos de uso
 ### Diagrama de Casos de Uso
 
-![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/9d54e305-bb7f-4529-aa2e-add22c9c3915)
+![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/a6a76b40-4ab6-4891-8241-39bb147cacb6)
 
 ### Tabelas de Casos de Uso
 | Identificador          | UC_01                                                                                                     |
