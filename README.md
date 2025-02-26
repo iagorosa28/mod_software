@@ -26,17 +26,17 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 ![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/9d54e305-bb7f-4529-aa2e-add22c9c3915)
 
 ### Tabelas de Casos de Uso
-| Identificador          | UC_01                                                                                                          |
-| :----------------------| :--------------------------------------------------------------------------------------------------------------|
-| Função                 | Verificar Cadastro                                                                                             |
-| Atores                 | Cliente, Atendente                                                                                             |
-| Prioridade             | Essencial                                                                                                      |     
-| Pré-condição           | Cliente precisa informar o código                                                                              |
-| Pós-condição           | Aprovação ou rejeição do cliente                                                                               |
-| Fluxo Principal        | - O cliente informa seu código <br> - O atendente verifica se o cliente já possui cadastro (FS001, FS002) <br> |
-| Fluxo Secundário FS001 | - Se o cliente não possuir cadastro, o atendente realiza o procedimento <br>                                   |
-| Fluxo Secundário FS002 | - Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003) <br>  |
-| Fluxo Secundário FS003 | - Caso o cliente tenha locações pendentes, o atendente deve recusar a locação <br>                             |
+| Identificador          | UC_01                                                                                                     |
+| :----------------------| :---------------------------------------------------------------------------------------------------------|
+| Função                 | Verificar Cadastro                                                                                        |
+| Atores                 | Cliente, Atendente                                                                                        |
+| Prioridade             | Essencial                                                                                                 |     
+| Pré-condição           | Cliente precisa informar o código                                                                         |
+| Pós-condição           | Aprovação ou rejeição do cliente                                                                          |
+| Fluxo Principal        | - O cliente informa seu código <br> - O atendente verifica se o cliente já possui cadastro (FS001, FS002) |
+| Fluxo Secundário FS001 | - Se o cliente não possuir cadastro, o atendente realiza o procedimento                                   |
+| Fluxo Secundário FS002 | - Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003)  |
+| Fluxo Secundário FS003 | - Caso o cliente tenha locações pendentes, o atendente deve recusar a locação                             |
 
 | Identificador   | UC_02                                                                                                                             |
 | :---------------| :---------------------------------------------------------------------------------------------------------------------------------|
@@ -74,15 +74,15 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Pós-condição    | O cliente pode utilizar o veículo alugado           |
 | Fluxo Principal | - A equipe do pátio libera o veículo para o cliente |
 
-| Identificador          | UC_06                                                          |
-| :----------------------| :-----------------------------------------------------------------------------|
-| Função                 | Verificar multas                                     |
-| Atores                 | Detran |
-| Prioridade             | Essencial          |     
-| Pré-condição           | Devolução do veículo pelo cliente concluída                                                          |
-| Pós-condição           | Conclusão final da locação                                                                |
-| Fluxo Principal        | - O sistema consulta o Detran para verificar se há multas pendentes no veículo utilizado pelo cliente (FS004) <br> |
-| Fluxo Secundário FS004 | - Caso existam multas pendentes relacionadas ao veículo do cliente, o sistema deve notificar e cobrar o cliente <br> |
+| Identificador          | UC_06                                                                                                           |
+| :----------------------| :---------------------------------------------------------------------------------------------------------------|
+| Função                 | Verificar multas                                                                                                |
+| Atores                 | Detran                                                                                                          |
+| Prioridade             | Essencial                                                                                                       |     
+| Pré-condição           | Devolução do veículo pelo cliente concluída                                                                     |
+| Pós-condição           | Conclusão final da locação                                                                                      |
+| Fluxo Principal        | - O sistema consulta o Detran para verificar se há multas pendentes no veículo utilizado pelo cliente (FS004)   |
+| Fluxo Secundário FS004 | - Caso existam multas pendentes relacionadas ao veículo do cliente, o sistema deve notificar e cobrar o cliente |
 
 ## Diagrama de Classes
 
