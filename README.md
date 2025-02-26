@@ -158,10 +158,10 @@ classDiagram
   Cliente "1" -- "1" Locacao : Realiza
   Cliente "1" -- "1" Veiculo : Aluga
   Cliente "1" -- "1" Historico : Tem
-  Veiculo "1" -- "1" Locacao : Pertence
   Historico "1" -- "1" Locacao : Pertence
-  Veiculo "1" -- "0..*" Multa : Leva
   Historico "1" -- "0..*" Multa : Registra
+  Veiculo "1" -- "1" Locacao : Pertence
+  Veiculo "1" -- "0..*" Multa : Leva
 
   class Pessoa{
   - cpf string
