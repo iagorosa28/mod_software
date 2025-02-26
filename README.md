@@ -88,64 +88,10 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 
 ```mermaid
 classDiagram
-  CLIENTE "1" -- "1" LOCAÇÃO : REALIZA
-  ATENDENTE "1" -- "1..*" CLIENTE : CADASTRA
-  CLIENTE "1" -- "1" VEICULO : SOLICITA CATEGORIA
-  VEICULO "1" -- "1" LOCAÇÃO : ATRIBUI MULTA  
-
-  class VEICULO{
-  - categoria string
-  - modelo string
-  - placa string
-  + mostrarCategorias()
-  + atribuirCategorias()
-  + removerCategorias()
-  }
-
-  class ATENDENTE{
-  - desempenho float
-  - ocupação boolean
-  + verificaDesempenho()
-  + atualizarDesempenho()
-  }
-
-  class CLIENTE{
-  - código string
-  - locaçãoPendente boolean
-  - cpf string
-  - valorDeAluguel float
-  - dataDeNascimento date
-  - contadorDeLocaçãoMensal int
-  - sequenciaMensal int
-  - nivelCategoria int
-  + cadastrar()
-  + verificaCadastro()
-  + atualizarLocaçõesPendentes()
-  + registrarLocação()
-  + verificarLocações()
-  + registrarNívelDeCategoria()
-  + verificarNívelDeCategoria()
-  }
-
-  class LOCAÇÃO{
-  - multa float
-  - valorDaLocação float
-  - valorAdicional float
-  - dataDeInicio date
-  - dataDeEntrega date
-  - reservaDeSegurança float
-  + verificarMultas()
-  + atribuirMultas()
-  + atualizarValores()
-  + registrarDatas()
-  }
-```
-
-```mermaid
-classDiagram
   Pessoa <-- Cliente
   Pessoa <-- Funcionario
   Funcionario "1" -- "0..*" Cliente : Cadastra
+  Funcionario "1" -- "0..*" Locacao : Libera
   Cliente "1" -- "1" Locacao : Realiza
   Cliente "1" -- "1" Veiculo : Aluga
   Cliente "1" -- "1" Historico : Tem
