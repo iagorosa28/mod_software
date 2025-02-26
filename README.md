@@ -185,4 +185,35 @@ classDiagram
   + atualizarDesempenho()
   + verificarDesempenho()
   }
+
+  class Historico{
+  - multa boolean
+  - locacaoPendente boolean
+  }
+
+  class Locacao{
+  - valorLocacao float
+  - valorAdicional float
+  - dataInicio date
+  - dataEntrega date
+  - reservaSeguranca
+  + atualizarValores()
+  + registrarDatas()
+  }
+
+  class Veiculo{
+  - categoria string
+  - modelo string
+  - placa string
+  + registrarVeiculo()
+  + mostrarInformacoes()
+  + removerVeiculo()
+  }
+
+  class Multa{
+  - tipoMulta string
+  - valorMulta float
+  - dataMulta date
+  + registrarMulta()
+  }
 ```
