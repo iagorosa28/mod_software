@@ -26,17 +26,17 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 ![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/9d54e305-bb7f-4529-aa2e-add22c9c3915)
 
 ### Tabelas de Casos de Uso
-| Identificador          | UC_01                                                          |
-| :----------------------| :-----------------------------------------------------------------------------|
-| Função                 | Verificar Cadastro                                     |
-| Atores                 | Cliente, Atendente |
-| Prioridade             | Essencial          |     
-| Pré-condição           | Cliente precisa informar o código                                                          |
-| Pós-condição           | Aprovação ou rejeição do cliente                                                                   |
+| Identificador          | UC_01                                                                                                          |
+| :----------------------| :--------------------------------------------------------------------------------------------------------------|
+| Função                 | Verificar Cadastro                                                                                             |
+| Atores                 | Cliente, Atendente                                                                                             |
+| Prioridade             | Essencial                                                                                                      |     
+| Pré-condição           | Cliente precisa informar o código                                                                              |
+| Pós-condição           | Aprovação ou rejeição do cliente                                                                               |
 | Fluxo Principal        | - O cliente informa seu código <br> - O atendente verifica se o cliente já possui cadastro (FS001, FS002) <br> |
-| Fluxo Secundário FS001 | - Se o cliente não possuir cadastro, o atendente realiza o procedimento <br> |
-| Fluxo Secundário FS002 | - Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003) <br> |
-| Fluxo Secundário FS003 | - Caso o cliente tenha locações pendentes, o atendente deve recusar a locação <br> |
+| Fluxo Secundário FS001 | - Se o cliente não possuir cadastro, o atendente realiza o procedimento <br>                                   |
+| Fluxo Secundário FS002 | - Após confirmar o cadastro do cliente, o atendente verifica se há locações pendentes do cliente (FS003) <br>  |
+| Fluxo Secundário FS003 | - Caso o cliente tenha locações pendentes, o atendente deve recusar a locação <br>                             |
 
 | Identificador   | UC_02                                                                                                                             |
 | :---------------| :---------------------------------------------------------------------------------------------------------------------------------|
@@ -47,13 +47,13 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Pós-condição    | O cliente pode selecionar o veículo de sua preferência                                                                            |
 | Fluxo Principal | - Caso tanto o cadastro quanto as locações pendentes do cliente estejam em conformidade, o atendente recepciona o cliente na loja |
 
-| Identificador   | UC_03                                                                               |
-| :---------------| :-----------------------------------------------------------------------------------|
-| Função          | Escolher categoria                                                                  |
-| Atores          | Cliente                                                                             |
-| Prioridade      | Essencial                                                                           |     
-| Pré-condição    | Recepção do cliente na loja                                                         |
-| Pós-condição    | O cliente avança para as etapas de pagamento e documentação                         |
+| Identificador   | UC_03                                                          |
+| :---------------| :-----------------------------------------------------------------------------|
+| Função          | Alugar veículo                                     |
+| Atores          | Cliente |
+| Prioridade      | Essencial          |     
+| Pré-condição    | Recepção do cliente na loja                                                          |
+| Pós-condição    | Pagar veículo                                                                |
 | Fluxo Principal | - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências |
 
 | Identificador   | UC_04                                                                                             |
@@ -62,19 +62,10 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Atores          | Cliente, Sistem de pagamento                                                                      |
 | Prioridade      | Essencial                                                                                         |     
 | Pré-condição    | Escolha do veículo pelo cliente                                                                   |
-| Pós-condição    | O cliente segue para os processos finais da locação do veículo                                    |
+| Pós-condição    | Liberação do veículo                                    |
 | Fluxo Principal | - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento |
 
 | Identificador   | UC_05                                                          |
-| :---------------| :-----------------------------------------------------------------------------|
-| Função          | Alugar veículo                                     |
-| Atores          | Cliente |
-| Prioridade      | Essencial          |     
-| Pré-condição    | Pagamento do veículo concluído                                                          |
-| Pós-condição    | Veículo alugado com sucesso                                                                |
-| Fluxo Principal | - O cliente só precisa finalizar a locação para ter seu veículo alugado <br> |
-
-| Identificador   | UC_06                                                          |
 | :---------------| :-----------------------------------------------------------------------------|
 | Função          | Liberar veículo                                     |
 | Atores          | Cliente, time do pátio |
@@ -83,7 +74,7 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Pós-condição    | O cliente pode utilizar o veículo alugado                                                                |
 | Fluxo Principal | - A equipe do pátio libera o veículo para o cliente <br> |
 
-| Identificador   | UC_07                                                          |
+| Identificador   | UC_06                                                          |
 | :---------------| :-----------------------------------------------------------------------------|
 | Função          | Verificar multas                                     |
 | Atores          | Detran |
