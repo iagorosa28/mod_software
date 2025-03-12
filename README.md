@@ -156,3 +156,15 @@ classDiagram
   + registrarMulta()
   }
 ```
+
+### Diagrama de Sequência
+```mermaid
+sequenceDiagram
+    participant A as Usuário
+    participant B as Sistema
+    A->>B: Solicita login
+    B->>A: Retorna status de autenticação
+    A->>B: Faz requisição de dados
+    B->>A: Retorna os dados solicitados
+
+```
