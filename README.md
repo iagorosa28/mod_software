@@ -29,7 +29,7 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Identificador          | UC_01                                                                                                     |
 | :----------------------| :---------------------------------------------------------------------------------------------------------|
 | Função                 | Verificar Cadastro                                                                                        |
-| Atores                 | Cliente, Funcionário                                                                                      |
+| Atores                 | Cliente, Atendente                                                                                      |
 | Prioridade             | Essencial                                                                                                 |     
 | Pré-condição           | Cliente precisa informar o código                                                                         |
 | Pós-condição           | Aprovação ou rejeição do cliente                                                                          |
@@ -41,11 +41,11 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Identificador   | UC_02                                                                               |
 | :---------------| :-----------------------------------------------------------------------------------|
 | Função          | Alugar veículo                                                                      |
-| Atores          | Cliente, Funcionário e Sistema de pagamento                                         |
+| Atores          | Cliente, Atendente, Time do pátio e Sistema de pagamento                            |
 | Prioridade      | Essencial                                                                           |     
-| Pré-condição    | Recepção do cliente na loja                                                         |
-| Pós-condição    | A equipe do pátio libera o veículo para o cliente                                   |
-| Fluxo Principal | - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências <br> - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento|
+| Pré-condição    | Cadastro do cliente liberado                                                        |
+| Pós-condição    | Aluguel concluído                                                                   |
+| Fluxo Principal | - Recepção do cliente na loja <br> - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências <br> - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento <br> - O time do pátio libera o veículo para o cliente |
 
 | Identificador          | UC_03                                                                                                           |
 | :----------------------| :---------------------------------------------------------------------------------------------------------------|
