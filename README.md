@@ -158,13 +158,5 @@ classDiagram
 ```
 
 ### Diagrama de Sequência
-```mermaid
-sequenceDiagram
-    participant A as Usuário
-    participant B as Sistema
-    A->>B: Solicita login
-    B->>A: Retorna status de autenticação
-    A->>B: Faz requisição de dados
-    B->>A: Retorna os dados solicitados
+![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/0d8168c6-9c3c-4808-b33a-6be74fbd0fb1)
 
-```
