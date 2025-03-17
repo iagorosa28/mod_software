@@ -158,5 +158,6 @@ classDiagram
 ```
 
 ### Diagrama de Sequência
-![DiagramaCasosDeUso drawio](https://github.com/user-attachments/assets/0d8168c6-9c3c-4808-b33a-6be74fbd0fb1)
+![Diagrama_S1 drawio](https://github.com/user-attachments/assets/b4120673-ab19-49c8-92a5-623b6ef151da)
+
 
