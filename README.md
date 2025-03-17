@@ -44,8 +44,8 @@ Classes: Veículo, funcionário, cliente, locação, "multas",
 | Atores          | Cliente, Funcionário e Sistema de pagamento                                         |
 | Prioridade      | Essencial                                                                           |     
 | Pré-condição    | Recepção do cliente na loja                                                         |
-| Pós-condição    | Pagar veículo                                                                       |
-| Fluxo Principal | - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências <br> - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento <br> - A equipe do pátio libera o veículo para o cliente |
+| Pós-condição    | A equipe do pátio libera o veículo para o cliente                                   |
+| Fluxo Principal | - O cliente escolhe a categoria e o veículo que melhor atendem às suas preferências <br> - O cliente realiza o pagamento da locação do veículo por meio de um sistema externo de pagamento|
 
 | Identificador          | UC_03                                                                                                           |
 | :----------------------| :---------------------------------------------------------------------------------------------------------------|
