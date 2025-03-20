@@ -101,7 +101,7 @@ classDiagram
   - locacaoPendente boolean
   - sequenciaLocacao int
   + atualizarMultasAtivas()
-  + atualizarMLocacaoPendente()
+  + atualizarLocacaoPendente()
   + atualizarSequenciaLocacao()
   + consultarHistorico()
   }
