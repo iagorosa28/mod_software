@@ -100,6 +100,9 @@ classDiagram
   - multasAtivas boolean
   - locacaoPendente boolean
   - sequenciaLocacao int
+  + atualizarMultasAtivas()
+  + atualizarMLocacaoPendente()
+  + atualizarSequenciaLocacao()
   + consultarHistorico()
   }
 
