@@ -124,6 +124,7 @@ classDiagram
   }
 
   class Multa{
+  - placaVeiculo string
   - tipoMulta string
   - valorMulta float
   - dataMulta date
