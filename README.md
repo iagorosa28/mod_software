@@ -129,6 +129,7 @@ classDiagram
   - valorMulta float
   - dataMulta date
   + registrarMulta()
+  + consultarMultas()
   }
 ```
 
