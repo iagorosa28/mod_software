@@ -134,12 +134,12 @@ classDiagram
   }
 ```
 
-### Diagrama de Sequência
-#### UC 01 - Verificar Cadastro
+## Diagrama de Sequência
+### UC 01 - Verificar Cadastro
 ![Diagrama_S1 drawio (1)](https://github.com/user-attachments/assets/7ba4604d-5a57-4f0e-b9aa-5703d7490df0)
 
-#### UC 02 - Alugar veículo
+### UC 02 - Alugar veículo
 ![Diagrama_S2 drawio](https://github.com/user-attachments/assets/1c56c93e-767e-4ffc-988d-d9093aa29a60)
 
-#### UC 03 - Verificar multas
+### UC 03 - Verificar multas
 ![DiagramaS3 drawio](https://github.com/user-attachments/assets/bbc10ffe-4a62-483c-a3ab-d23e42d0d110)
