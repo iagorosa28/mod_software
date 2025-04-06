@@ -143,3 +143,13 @@ classDiagram
 
 ### UC 03 - Verificar multas
 ![DiagramaS3 drawio](https://github.com/user-attachments/assets/bbc10ffe-4a62-483c-a3ab-d23e42d0d110)
+
+## Diagrama de Estados
+### Funcionário (Objeto):
+![DE1 drawio](https://github.com/user-attachments/assets/130219d5-8a62-489f-88a8-aa6b94b634b9)
+
+### Cliente (Objeto):
+
+
+### Verificação Multa (Ação do Sistema):
+
