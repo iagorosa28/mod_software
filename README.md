@@ -152,4 +152,5 @@ classDiagram
 ![DE2 drawio](https://github.com/user-attachments/assets/78a2d43d-76c1-4f73-a29a-0c55cf0941d9)
 
 ### Verificação Multa (Ação do Sistema):
+![DE3 drawio](https://github.com/user-attachments/assets/045a5b7d-fa61-4d98-911c-7565cde66bc8)
 
