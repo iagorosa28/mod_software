@@ -149,7 +149,7 @@ classDiagram
 ![DE1 drawio](https://github.com/user-attachments/assets/130219d5-8a62-489f-88a8-aa6b94b634b9)
 
 ### Cliente (Objeto):
-
+![DE2 drawio](https://github.com/user-attachments/assets/78a2d43d-76c1-4f73-a29a-0c55cf0941d9)
 
 ### Verificação Multa (Ação do Sistema):
 
