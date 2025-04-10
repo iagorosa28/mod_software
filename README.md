@@ -151,13 +151,11 @@ classDiagram
 ### Cliente (Objeto):
 ![DE2 drawio](https://github.com/user-attachments/assets/78a2d43d-76c1-4f73-a29a-0c55cf0941d9)
 
-### Verificação Multa (Ação do Sistema):
-![DE3 drawio](https://github.com/user-attachments/assets/045a5b7d-fa61-4d98-911c-7565cde66bc8)
-
 ## Diagrama de Atividades
+### Diagrama de Atividades da parte de Cadastro de Cliente
 ![DA1 drawio](https://github.com/user-attachments/assets/ebb57717-a098-4c9b-91f7-062e6eb63475)
 
-
+### Diagrama de Atividades da parte de Liberação do Veículo
 ![DA2 drawio](https://github.com/user-attachments/assets/f8f5afe4-b10f-45f6-b77b-95aa1bcf40d3)
 
 ### Diagrama de Atividades da parte de Consulta de Multas
