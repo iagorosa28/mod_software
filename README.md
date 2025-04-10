@@ -160,7 +160,10 @@ classDiagram
 
 ![DA2 drawio](https://github.com/user-attachments/assets/f8f5afe4-b10f-45f6-b77b-95aa1bcf40d3)
 
+### Diagrama de Atividades da parte de Consulta de Multas
+![DE3 drawio (1)](https://github.com/user-attachments/assets/f9d06ca0-9ab6-4e0e-9121-4a8d94df6e10)
 
+### Diagrama de Atividades de Todo o Sistema
 ![DA3 drawio](https://github.com/user-attachments/assets/b48a346f-ea7f-4569-9609-34dd787760fb)
 
 
