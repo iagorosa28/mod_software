@@ -164,7 +164,47 @@ classDiagram
 ### Diagrama de Atividades de Todo o Sistema
 ![DA3 drawio](https://github.com/user-attachments/assets/b48a346f-ea7f-4569-9609-34dd787760fb)
 
+## Diagrama de Componentes
+graph TD
 
+%% Agrupamentos em caixas (componentes)
+
+subgraph compCliente[Componente Cliente]
+    cli[Cliente]
+    hist[Historico]
+end
+
+subgraph compLocacao[Componente Locacao]
+    loc[Locacao]
+end
+
+subgraph compFuncionarios[Componente Funcionarios]
+    func[Funcionario]
+end
+
+subgraph compPessoas[Componente Pessoas]
+    pess[Pessoa]
+end
+
+subgraph compVeiculos[Componente Veiculos]
+    vei[Veiculo]
+    multa[Multa]
+end
+
+%% Conexões entre componentes (baseado nas associações das classes)
+
+pess --> func
+pess --> cli
+
+cli --> hist
+cli --> loc
+
+func --> loc
+
+loc --> vei
+vei --> multa
+
+## Diagrama de Implantação
 
 
 
