@@ -165,6 +165,7 @@ classDiagram
 ![DA3 drawio](https://github.com/user-attachments/assets/b48a346f-ea7f-4569-9609-34dd787760fb)
 
 ## Diagrama de Componentes
+```mermaid
 graph TD
 
 %% Agrupamentos em caixas (componentes)
@@ -203,7 +204,7 @@ func --> loc
 
 loc --> vei
 vei --> multa
-
+```
 ## Diagrama de Implantação
 
 
