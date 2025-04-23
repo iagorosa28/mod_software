@@ -206,6 +206,31 @@ loc --> vei
 vei --> multa
 ```
 ## Diagrama de Implantação
-
-
-
+```mermaid
+flowchart TD
+  ClienteWeb["Cliente (Interface Web)"]
+  FuncionarioLocal["Funcionário (Atendimento Local)"]
+  Servidor["Servidor"]
+  Banco["Banco de Dados"]
+  Detran["Sistema do DETRAN (API Externa)"]
+  Pagamento["Sistema de Pagamento (API Externa)"]
+  
+  ClienteWeb -->|HTTPS| Servidor
+  FuncionarioLocal -->|Rede Local| Servidor
+  
+  Servidor -->|Conexão| Banco
+  Servidor -->|Consulta API| Detran
+  Servidor -->|Integração API| Pagamento
+  
+  Servidor --> Backend["Backend"]
+  Servidor --> Frontend["Frontend"]
+  
+  Banco --> Tabelas["Tabelas: Cliente, Funcionário, Locação, Veículo, Multa, Histórico"]
+  
+  Detran --> API_Detran["API do DETRAN"]
+  Pagamento --> API_Pagamento["API de Pagamento"]
+  
+  Backend --> Banco
+  Frontend --> Backend
+  Frontend --> Servidor
+```
