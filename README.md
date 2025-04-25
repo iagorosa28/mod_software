@@ -13,14 +13,6 @@
 - [Diagrama de classes](#diagrama-de-classes)
 - [Diagrama de sequência](#diagrama-de-sequência)
 
-### Dados temporários
-
-Atores: cliente, atendente, time do pátio, operador, sistema do DETRAN
-
-Classes: Veículo, funcionário, cliente, locação, "multas", 
-
-## Apresentação 
-
 ## Casos de uso
 ### Diagrama de Casos de Uso
 
