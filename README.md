@@ -1,6 +1,6 @@
 # Modelagem de um sistema para uma locadora de veículos
 
-> Status do projeto: Em andamento
+> Status do projeto: Finalizado
 
 > Este projeto nos foi proposto no 6º semestre na disciplina de Modelagem de Software Orientado a Objetos
 
